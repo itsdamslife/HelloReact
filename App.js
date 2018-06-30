@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import Bananas from "./components/ImageComponent";
 import LotsOfGreetings from "./components/Greetings";
+import BlinkView from "./components/Blink";
 
 export default class App extends React.Component {
   render() {
@@ -11,6 +12,7 @@ export default class App extends React.Component {
         <Text>Hello World!</Text>
         <Bananas />
         <LotsOfGreetings />
+        <BlinkView />
       </View>
     );
   }
